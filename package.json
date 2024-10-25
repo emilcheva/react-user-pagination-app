@@ -1,0 +1,52 @@
+{
+  "name": "clerk-frontend-assignment-e77fd252f66841b09d1e70f38a508408",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test:watch": "vitest",
+    "test": "vitest run --coverage",
+    "watch:typescript": "tsc --watch --preserveWatchOutput",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "format": "prettier --check --ignore-path .gitignore .",
+    "format:fix": "prettier --write --list-different --ignore-path .gitignore .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@fortawesome/free-solid-svg-icons": "6.4.2",
+    "@fortawesome/react-fontawesome": "0.2.1",
+    "@tanstack/react-query": "5.37.1",
+    "@tanstack/react-query-devtools": "5.37.1",
+    "@testing-library/jest-dom": "6.4.5",
+    "@testing-library/react": "15.0.7",
+    "@types/react": "18.2.66",
+    "@types/react-dom": "18.2.22",
+    "@typescript-eslint/eslint-plugin": "7.2.0",
+    "@typescript-eslint/parser": "7.2.0",
+    "@vitejs/plugin-react": "4.2.1",
+    "@vitest/coverage-v8": "1.6.0",
+    "autoprefixer": "10.4.19",
+    "axios": "1.6.8",
+    "clsx": "2.1.1",
+    "eslint": "8.57.0",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react-refresh": "0.4.6",
+    "jsdom": "24.0.0",
+    "msw": "2.3.0",
+    "postcss": "8.4.38",
+    "prettier": "3.2.5",
+    "prettier-plugin-tailwindcss": "0.5.14",
+    "tailwind-merge": "2.3.0",
+    "tailwindcss": "3.4.3",
+    "tailwindcss-animate": "1.0.7",
+    "typescript": "5.2.2",
+    "vite": "5.2.0",
+    "vitest": "1.6.0"
+  }
+}
